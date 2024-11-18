@@ -47,16 +47,16 @@ This whole project is divided into 3 projects. By separating into projects, the 
 ### Dashboard App Project
 1. Dashboard App Target - Contains Main App and App UI. Depends on Dashboard Feed Project and Dashboard Log Project.
 
-<img width="283" alt="DashboardProjectStructure" src="https://github.com/user-attachments/assets/efd0d69c-7345-4210-9e27-26a459f14947">
+<img width="253" alt="ProjectStructure" src="https://github.com/user-attachments/assets/e06389ef-07b0-4c4f-a867-b72742210517">
 
 ## TDD and Clean Architecture
 Developed API, Persistence and Presentation layers using Test Driven Development and Clean architecture for better code quality, testability, maintainability and reusability.   
 
 Test coverage in Dashboard Feed Project is 99.5%   
 
-<img width="600" alt="DashboardFeedTestCoverage" src="https://github.com/user-attachments/assets/e7de4712-858f-4f35-b88d-b0beaddd17dd">
+<img width="600" alt="TestCoverage" src="https://github.com/user-attachments/assets/5904e00a-3d7a-4b70-9196-0284eeafab7b">   
 
-<img width="600" alt="DashboardSeparationOfLayers" src="https://github.com/user-attachments/assets/3371fad9-3327-40c3-ad0d-e8a0d0a50a9e">
+<img width="600" alt="SeparationOfLayers" src="https://github.com/user-attachments/assets/66e98839-517c-4f15-a82c-094f15550dfe">
 
 ## App Features and Functionalities
 
@@ -80,7 +80,7 @@ The text views inside has a justification alignment and adapts to orientation ch
 
 Portrait|Landscape
 --|--
-<img height="400" alt="ChartLegendViewPortrait" src="https://github.com/user-attachments/assets/13354095-edc3-4774-9ba3-1fd017b5a272">|<img width="400" alt="ChartLegendViewLandscape" src="https://github.com/user-attachments/assets/677d1750-8770-4d2a-8142-b1f6722d0bb1">
+<img height="400" alt="ChartLegendViewPortrait" src="https://github.com/user-attachments/assets/48e5c25d-d69c-4715-9739-7174eba49a24">|<img width="400" alt="ChartLegendViewLandscape" src="https://github.com/user-attachments/assets/ee2a6d3d-9044-4b35-9282-08ccf0afe6f1">
 
 ### Navigation flow
 On selecting the card view, the user will be navigated to new screen which displays the list data, which is grouped into tabs based on their type.
@@ -115,7 +115,7 @@ Display - '16/11/2024, 11:45 AM → 17/11/2024, 18:45 PM'
 ### Alert for error
 When download fails an alert will be shown to user.
 
-<img height="400" alt="ErrorAlert" src="https://github.com/user-attachments/assets/fd00dd2e-e3a0-464d-87ca-510581b5485d">
+<img height="400" alt="ErrorAlert" src="https://github.com/user-attachments/assets/ce25568a-fbaf-4e00-94e3-042e6d1052fb">
 
 ### Custom toast view for status updates
 A toast view for showing some status updates to user.   
@@ -123,9 +123,9 @@ When appear the toast view will blink to grab user attention. And auto hides aft
 Whenever sync completes successfully toast view will be displayed.
 
 ### Light/Dark mode
-Supports light and dark mode.
+Supports light and dark mode.   
 
-<img height="400" alt="Darkmodelist" src="https://github.com/user-attachments/assets/30c0124c-2c33-42c9-a09e-c41ffc4a3d53">
+<img height="400" alt="Darkmodelist" src="https://github.com/user-attachments/assets/341c05ec-d8ff-4572-9189-10ce893f60f0">
 
 ### Localization
 Supports English(Left To Right), Arabic(Right To Left).   
@@ -134,14 +134,14 @@ Static texts in app were converted to arabic and added to string catalog.
 
 Main screen|List screen
 --|--
-<img height="400" alt="MainScreenArabic" src="https://github.com/user-attachments/assets/5bf2c8e0-33bb-4f11-a897-c0ffda602d77">|<img height="400" alt="ListScreenArabic" src="https://github.com/user-attachments/assets/33ef0d6a-5a1f-40f7-9f55-bea4a0f60b88">
+<img height="400" alt="MainScreenArabic" src="https://github.com/user-attachments/assets/35bdc82c-dab1-4a4d-8fa6-611006543246">|<img height="400" alt="ListScreenArabic" src="https://github.com/user-attachments/assets/7cbe2399-82b7-4775-9fc6-e6b0b98a50b1">
 
 ### Enabling/Disabling feature
 Using firebase remote config, a feature can be enabled and disabled based on needs.
 
 Firebase remote config|App job disabled from remote config
 --|--
-<img width="500" alt="Firebase remote config" src="https://github.com/user-attachments/assets/0d429d1d-02df-4fb7-a6c1-2064ce213b44">|<img height="400" alt="JobDisabled" src="https://github.com/user-attachments/assets/85e09993-b119-44b0-80fe-2cb21e04d3de">
+<img width="500" alt="Firebase remote config" src="https://github.com/user-attachments/assets/c24cd4f9-b457-4906-9489-b06d5382f003">|<img height="400" alt="JobDisabled" src="https://github.com/user-attachments/assets/5a277fbb-547a-4b74-905f-df300c7bbddd">
 
 ## Time for adding new similar feature
 First worked on job feature, took me a week to complete API(including test), Persistence(including test), Presentation(including test), Card UI, List UI, Light/Dark mode support.
