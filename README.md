@@ -8,6 +8,7 @@ This repository contains only the documentation about [DashboardProject](https:/
 * [TDD and Clean Architecture](#tdd-and-clean-architecture)
 * [App Features and Functionalities](#app-features-and-functionalities)
 * [Time for adding new similar feature](#time-for-adding-new-similar-feature)
+* [Optimization for loading huge data](#optimization-for-loading-huge-data)
 * [Use Cases](#use-cases)
 
 ## About App
@@ -151,6 +152,20 @@ https://github.com/user-attachments/assets/53a1dd1c-e02c-4e99-8fd9-2a7ead6d9a24
 First worked on job feature, took me a week to complete API(including test), Persistence(including test), Presentation(including test), Card UI, List UI, Light/Dark mode support.
 
 Then started working on invoice feature, since the funtionality is similar, i was able to reuse all the layers from job feature. And completed invoice feature in half day with tests.
+
+## Optimization for loading huge data
+
+Using swift concurrency features optimized list screen for loading 100,000 data. The data will be loaded asynchronously by batch.   
+
+The data will be loaded asynchronously in the background without interrupting user actions.   
+
+If the user decides to go back before the background loading completes, the batch loading task will be cancelled. Cancelling task will avoid unwanted CPU usage.   
+
+For asynchronously loading 100,000 data,
+Jobs list screen takes 8 second with date calculations.
+Invoices list screen takes 2 second with minimum calculations.   
+
+https://github.com/user-attachments/assets/7753603d-8ea1-4946-abaf-f3d65800d62f
 
 ## Use Cases
 
