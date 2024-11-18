@@ -143,6 +143,10 @@ Firebase remote config|App job disabled from remote config
 --|--
 <img width="500" alt="Firebase remote config" src="https://github.com/user-attachments/assets/c24cd4f9-b457-4906-9489-b06d5382f003">|<img height="400" alt="JobDisabled" src="https://github.com/user-attachments/assets/5a277fbb-547a-4b74-905f-df300c7bbddd">
 
+### Custom animated loading icon   
+
+https://github.com/user-attachments/assets/53a1dd1c-e02c-4e99-8fd9-2a7ead6d9a24
+
 ## Time for adding new similar feature
 First worked on job feature, took me a week to complete API(including test), Persistence(including test), Presentation(including test), Card UI, List UI, Light/Dark mode support.
 
