@@ -2,7 +2,7 @@ This repository contains only the documentation about [DashboardProject](https:/
 
 # Contents
 * [About App](#about-app)
-* [Videos](#videos)
+* [App Videos](#app-videos)
 * [Technologies](#technologies)
 * [App Architecture](#app-architecture)
 * [TDD and Clean Architecture](#tdd-and-clean-architecture)
@@ -13,8 +13,9 @@ This repository contains only the documentation about [DashboardProject](https:/
 ## About App
 An app which fetches data from server and displays to user. The app stores data in offline database, so user can access data when there is no network connection.
 
-## Videos
+## App Videos
 
+https://github.com/user-attachments/assets/9292d65d-d57b-40a0-89d6-883310e49c49
 
 ## Technologies
 
