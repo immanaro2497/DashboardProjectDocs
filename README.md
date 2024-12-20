@@ -26,6 +26,7 @@ This repository contains only the documentation about [DashboardProject](https:/
   * [Custom animated loading icon](#custom-animated-loading-icon)
 * [Time for adding new similar feature](#time-for-adding-new-similar-feature)
 * [Optimization for loading huge data](#optimization-for-loading-huge-data)
+* [Script for uniform bug commit messages](#script-for-uniform-bug-commit-messages)
 * [Use Cases](#use-cases)
 
 ## About App
@@ -182,7 +183,15 @@ For asynchronously loading 100,000 data,
 Jobs list screen takes 8 second with date calculations.
 Invoices list screen takes 2 second with minimum calculations.   
 
-https://github.com/user-attachments/assets/7753603d-8ea1-4946-abaf-f3d65800d62f
+https://github.com/user-attachments/assets/7753603d-8ea1-4946-abaf-f3d65800d62f   
+
+## Script for uniform bug commit messages   
+
+Created a script for adding consistent and informative bug commit messages.   
+Team can use this script to create uniform commit messages when fixing issues from live environment.   
+
+<img width="500" alt="scriptexec" src="https://github.com/user-attachments/assets/41a6afd1-9299-4208-9c4c-05cd391c79f2">
+<img width="500" alt="githubmessage" src="https://github.com/user-attachments/assets/04cc6650-d574-4194-a37b-ee98641ca2a5">
 
 ## Use Cases
 
